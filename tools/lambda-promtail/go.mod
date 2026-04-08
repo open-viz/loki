@@ -1,6 +1,6 @@
 module main
 
-go 1.17
+go 1.24
 
 require (
 	github.com/aws/aws-lambda-go v1.26.0
@@ -12,12 +12,13 @@ require (
 	github.com/grafana/dskit v0.0.0-20220105080720-01ce9286d7d5
 	github.com/grafana/loki v1.6.2-0.20220128102010-431d018ec64f
 	github.com/prometheus/common v0.32.1
+	github.com/stretchr/testify v1.7.0
 )
 
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
 	github.com/armon/go-metrics v0.3.9 // indirect
-	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.0.0 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.8 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.6.5 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.8.2 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.2 // indirect
@@ -28,7 +29,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.9.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.7.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.12.0 // indirect
-	github.com/aws/smithy-go v1.9.0 // indirect
+	github.com/aws/smithy-go v1.24.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/coreos/etcd v3.3.25+incompatible // indirect
@@ -83,7 +84,6 @@ require (
 	github.com/sercand/kuberesolver v2.4.0+incompatible // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/stretchr/objx v0.2.0 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/uber/jaeger-client-go v2.30.0+incompatible // indirect
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/weaveworks/common v0.0.0-20211015155308-ebe5bdc2c89e // indirect
